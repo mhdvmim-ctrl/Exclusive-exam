@@ -12,6 +12,11 @@ header {
     align-items: center;
     justify-content: center;
     border: 0.5px solid #000000;
+    position: fixed;
+    background: white;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
 
     nav {
         width: 100%;
@@ -155,7 +160,7 @@ main {
             line-height: 24px;
             letter-spacing: 0%;
             margin-top: 20px;
-                        margin-left: 25%;
+            margin-left: 25%;
 
         }
 
